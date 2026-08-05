@@ -1,0 +1,63 @@
+{
+  "title": "Customer Satisfaction Survey",
+  "description": "Example questionnaire demonstrating every supported question type.",
+  "questions": [
+    {
+      "id": "q1_satisfaction",
+      "type": "likert",
+      "text": "Overall, how satisfied are you with our service?",
+      "scale": 5,
+      "sentiment_linked": true
+    },
+    {
+      "id": "q2_source",
+      "type": "single_choice",
+      "text": "How did you hear about us?",
+      "options": ["Social media", "Friend/Family", "Search engine", "Advertisement", "Other"],
+      "weights": [0.3, 0.25, 0.25, 0.15, 0.05]
+    },
+    {
+      "id": "q3_features",
+      "type": "multi_choice",
+      "text": "Which features do you use most? (select all that apply)",
+      "options": ["Dashboard", "Reports", "API", "Mobile app", "Support chat"],
+      "max_selections": 3
+    },
+    {
+      "id": "q4_nps",
+      "type": "nps",
+      "text": "On a scale of 0-10, how likely are you to recommend us to a friend or colleague?",
+      "sentiment_linked": true
+    },
+    {
+      "id": "q5_support_contact",
+      "type": "yes_no",
+      "text": "Have you contacted customer support in the last 3 months?",
+      "options": ["Yes", "No"],
+      "weights": [0.35, 0.65]
+    },
+    {
+      "id": "q6_tenure",
+      "type": "numeric",
+      "text": "How many years have you been a customer?",
+      "min": 0,
+      "max": 15,
+      "distribution": "normal",
+      "mean": 3,
+      "stdev": 2.5
+    },
+    {
+      "id": "q7_improvement",
+      "type": "open_text",
+      "text": "What is one thing we could improve?",
+      "topic": "our product",
+      "allow_skip": true,
+      "skip_rate": 0.35,
+      "keywords": {
+        "positive": ["keep up the great work", "honestly nothing comes to mind"],
+        "negative": ["pricing feels high", "support response times", "the UI is confusing"],
+        "neutral": ["more integrations", "better documentation", "a dark mode option"]
+      }
+    }
+  ]
+}

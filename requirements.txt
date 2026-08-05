@@ -1,0 +1,4 @@
+# Core simulator uses only the Python standard library.
+# Optional extras:
+pytest>=7.0        # to run the test suite
+anthropic>=0.34.0  # only needed for --llm open-text enhancement
