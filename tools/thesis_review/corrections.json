@@ -1,0 +1,77 @@
+[
+  {
+    "find": "Avalio",
+    "replace": "Avolio",
+    "reason": "misspelling of Avolio, which the reference list spells correctly (Bass & Avolio, 1993)"
+  },
+  {
+    "find": "Uhl-Biel",
+    "replace": "Uhl-Bien",
+    "reason": "misspelling of Uhl-Bien, which the reference list spells correctly (Uhl-Bien, 2006)"
+  },
+  {
+    "find": "is the basis for his study",
+    "replace": "is the basis for this study",
+    "reason": "typo: the sentence's subject is the study itself, not a person"
+  },
+  {
+    "find": "date collection is feasible",
+    "replace": "data collection is feasible",
+    "reason": "typo: data, not date"
+  },
+  {
+    "find": "Data Collective Approach",
+    "replace": "Data Collection Approach",
+    "reason": "typo in subsection heading"
+  },
+  {
+    "find": "will be proceeded in several stages",
+    "replace": "will proceed in several stages",
+    "reason": "grammar: incorrect passive construction"
+  },
+  {
+    "find": "higher levels of staff morals",
+    "replace": "higher levels of staff morale",
+    "reason": "morale (workplace spirit), not morals (ethics), is what the sentence describes"
+  },
+  {
+    "find": "and their feeling feedback will be incorporated",
+    "replace": "and their feedback will be incorporated",
+    "reason": "stray word 'feeling' before feedback"
+  },
+  {
+    "find": "Leaders led by example when it comes to following institutional regulations.",
+    "replace": "Leaders lead by example when it comes to following institutional regulations.",
+    "reason": "tense consistency: every other questionnaire item in this section is present tense"
+  },
+  {
+    "find": "1.5 Research Questions of the Study",
+    "replace": "1.6 Research Questions of the Study",
+    "reason": "renumbered: section 1.5 was already used by 'Specific objectives'",
+    "match": "exact"
+  },
+  {
+    "find": "1.6 Conceptual Framework",
+    "replace": "1.7 Conceptual Framework",
+    "reason": "renumbered to follow the corrected 1.6 Research Questions",
+    "match": "exact"
+  },
+  {
+    "find": "1.7 Definitions of Key terms",
+    "replace": "1.8 Definitions of Key terms",
+    "reason": "renumbered to follow the corrected 1.7 Conceptual Framework",
+    "match": "exact"
+  },
+  {
+    "find": "Scope and Delimitation",
+    "replace": "1.9 Scope and Delimitation",
+    "reason": "this heading had no section number at all; numbered to follow 1.8 Definitions of Key terms",
+    "match": "exact"
+  },
+  {
+    "find": "Reliability",
+    "replace": "3.7.1 Reliability",
+    "reason": "this heading had no section number, while the sibling 'Validity' heading is numbered 3.7.2",
+    "match": "exact"
+  }
+]
