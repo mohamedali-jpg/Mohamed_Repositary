@@ -4,8 +4,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository status
 
-This repository is currently empty — there are no commits, source files, or configuration on any branch. There is no build system, test suite, or established architecture yet to document.
+This repository has no application source code, build system, or test suite. It currently holds Claude Code configuration only.
 
-When code is added to this repository, update this file with:
+## Structure
+
+- `.claude/agents/` — custom Claude Code subagent definitions.
+  - `docs-writer` — generates/updates documentation from the current state of the codebase.
+
+When application code is added to this repository, update this file with:
 - Build, lint, and test commands (including how to run a single test)
 - The high-level architecture and structure of the codebase
